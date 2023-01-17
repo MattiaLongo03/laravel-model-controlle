@@ -1,2 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-@import '~/bootstrap';
+body{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4em 4em;
+    gap: 2em;
+}
+
+li{
+    background-color: purple;
+    width: 1200px;
+    height: 20em;
+    color: white;
+    flex: 1 0 16%;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 4em;
+    list-style: none;
+    border-radius: 15px;
+}
+
+
+
